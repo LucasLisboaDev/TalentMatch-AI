@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data - don't commit raw/processed data to GitHub
+data/raw/
+data/processed/
+
+# Model weights - these live on HuggingFace Hub, not GitHub
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Colab artifacts
+*.log
+
+# OS
+.DS_Store

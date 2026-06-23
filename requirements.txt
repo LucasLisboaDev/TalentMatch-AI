@@ -1,0 +1,12 @@
+transformers==4.40.0
+datasets==2.19.0
+peft==0.10.0
+evaluate==0.4.1
+torch==2.2.2
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+huggingface_hub==0.22.2
+accelerate==0.29.3
+sentencepiece==0.2.0
+gradio==4.29.0
